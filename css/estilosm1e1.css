@@ -172,3 +172,24 @@ p {
     border-radius: 5px;
     margin: 5px 0 10px 0;
 }
+/*ESTILOS PARA PRODUCTOS - TABLA*/
+
+
+.tabla{
+    width: 70%;
+     margin: 30px auto;
+}
+th {
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+td {
+    padding: 20px;
+}
+
+.tabla, td, th {
+    border: 1px solid black;
+     /*Quitar borde doble*/
+    border-collapse: collapse;
+}
