@@ -1,2 +1,174 @@
-*{
+
+body {
+    font-family: 'Contrail One', cursive;
+    /*background: #c9cfde;*/
+    width: 80%;
+    margin: auto;
+
+} 
+#titulo {
+    text-align: center;
+    color: #ff0089;
+    font-family: 'Montserrat', sans-serif;
+}
+#encabezado {
+    background-image: url(../img/imgempresa.jpg);
+    line-height: 30px;
+    position: relative;
+}
+#encabezado h5{
+    margin-top :20px;
+    margin-bottom: 0;
+}
+#encabezado ul{
+    margin-top: 2px;
+    margin-bottom: 20;
+}
+.encabezadocontenido li:hover {
+    background: black;
+    color: white;
+    margin-top: 1px;
+}
+
+.encabezadocontenido {
+    margin-left: 70%;
+    font-size: 20px;
+}
+
+#menu {
+    font-family: sans-serif;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+
+#menu li {
+    display: inline-block; 
+    margin: 0px 5px;
+    padding: 25px;
+}
+#menu a{
+    text-decoration: none;
+    color:red;
+}
+
+#menu li:hover {
+    border: 1px solid white;
+}
+
+.encabezadofranja {
+    background: #dec6c6;
+}
+
+.encabezadofranja img {
+    padding: 10px 0 0 10px;
+}
+
+.seccion {
+    color:darkgreen;
+    overflow: hidden;  
+    border: 1px solid blue;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px 5px 20px 5px;
+        
+}
+
+.izquierda {
+    float: left;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+.derecha{
+    float: right;
+}
+
+h3 {
+    color:blueviolet;    
+    font-family: 'Architects Daughter', cursive;
+    
+}
+p {
+    font-size: 17px;   
+}
+.contacto {
+    display: flex;
+    width: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+
+.contacto img {
+    width: 290px;
+    height: 100px;
+    display: block;
+    margin: auto;|
+}
+.contacto strong {
+    display: block;
+}
+
+.contacto a {
+    align-items: center;
+    margin: auto
+}
+
+.footer {
+    background: #dec6c6;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    width: 600px;
+    color:black;
+}
+.col1, .col2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.interes {
+    margin: 2px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.interes label{
+    width: 130px
+}
+.formulario input, textarea, radio {
+    border: 2px solid white;
+    background: #dee3f2;
+}
+
+.sexo {
+    border: 1px solid white;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.col2 {
+    align-items: flex-start;
+}
+
+#enviar {
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
 }
